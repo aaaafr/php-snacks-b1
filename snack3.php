@@ -58,8 +58,6 @@ $posts = [
 </head>
 <body>
 <h1>Array dates PHP</h1>
-    <div class="postDate">
-    <p> <?php  echo $posts['10/01/2019'] ?> </p>
-    </div>
+
 </body>
 </html>

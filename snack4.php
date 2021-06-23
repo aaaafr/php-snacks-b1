@@ -4,9 +4,7 @@ Creare un array con 15 numeri casuali,
  lo stesso numero più di una volta -->
  
 
- <?php 
- 
- ?>
+ <?php ?>
 
 
  <!DOCTYPE html>
@@ -18,6 +16,19 @@ Creare un array con 15 numeri casuali,
      <title>Casuale</title>
  </head>
  <body>
-     
+
+     <?php
+     $i = 0;
+     $array = array();
+     while ($i < 15) {
+     $cas= rand(1,60);
+     if (! in_array($cas,$array)) {
+     $array[]=$cas;
+     $i++;
+     }
+     }
+     print_r($array);
+     ?>
+    </div>
  </body>
  </html>

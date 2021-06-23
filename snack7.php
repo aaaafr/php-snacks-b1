@@ -55,7 +55,6 @@ Ogni alunno avrà Nome, Cognome e un array contenente
   <h1>Classroom PHP</h1>
     <div class="class">
     <?php for($i = 0; $i < count($classe); $i++) {
-        // var_dump($partite[$i]);
         $class = $classe[$i];
      ?>
      <div class="alunni">
@@ -63,7 +62,6 @@ Ogni alunno avrà Nome, Cognome e un array contenente
      </div>
      <?php }
      ?> 
-
     </div>
   </body>
   </html>
